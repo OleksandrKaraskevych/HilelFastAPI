@@ -1,9 +1,9 @@
 DC = docker compose
 
-PHONY: up, down
+.PHONY: up down
+
 up:
 	${DC} up -d
 
 down:
 	${DC} down
-	
