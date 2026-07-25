@@ -6,3 +6,4 @@ up:
 
 down:
 	${DC} down
+	
